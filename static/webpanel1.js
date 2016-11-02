@@ -1,0 +1,3 @@
+gx.evt.autoSkip=!1;
+function webpanel1(){this.ServerClass="WebPanel1";this.PackageName="";this.setObjectType("web");this.skipOnEnter=this.hasEnterEvent=!1;this.autoRefresh=!0;this.SetStandaloneVars=function(){};this.e12042_client=function(){this.executeServerEvent("ENTER",!0)};this.e13042_client=function(){this.executeServerEvent("CANCEL",!0)};this.GXValidFnc=[];this.GXCtrlIds=[2];this.GXLastCtrlId=2;this.GXValidFnc[2]={fld:"TEXTBLOCK1",format:0,grid:0};this.ServerEvents=["e12042_client","e13042_client"];this.SetStandaloneVars()}
+webpanel1.prototype=new gx.GxObject;gx.setParentObj(new webpanel1);
